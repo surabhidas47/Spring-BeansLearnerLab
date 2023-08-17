@@ -30,6 +30,26 @@ public abstract class People <PersonType extends Person> implements Iterable<Per
         return personList.size();
     }
 
+    public void clear () {
+        personList.clear();
+    }
 
+    public void addAll (Iterable<PersonType> iterable) {
+        for (PersonType p: iterable){
+            personList.add(p);
+        }
+    }
 
+    public PersonType findById(Long id){
+        for (PersonType p: personList){
+            if (p.getId()==id){
+                return p;
+            }
+        }
+        return null;
+    }
+
+    public List<PersonType> getPersonList() {
+        return personList;
+    }
 }
