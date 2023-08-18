@@ -1,4 +1,4 @@
-package com.example.BeanFLL;
+package com.example.BeanFLL.People;
 
 import java.util.ArrayList;
 import java.util.Arrays;

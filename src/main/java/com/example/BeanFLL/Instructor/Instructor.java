@@ -1,6 +1,10 @@
-package com.example.BeanFLL;
+package com.example.BeanFLL.Instructor;
 
-public class Instructor extends Person implements Teacher{
+import com.example.BeanFLL.Learner;
+import com.example.BeanFLL.People.Person;
+import com.example.BeanFLL.Teacher;
+
+public class Instructor extends Person implements Teacher {
 
 
 

@@ -1,6 +1,9 @@
-package com.example.BeanFLL;
+package com.example.BeanFLL.Student;
 
-public class Student extends Person implements Learner{
+import com.example.BeanFLL.Learner;
+import com.example.BeanFLL.People.Person;
+
+public class Student extends Person implements Learner {
 
     double totalStudyTime;
 
