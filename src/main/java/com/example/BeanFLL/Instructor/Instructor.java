@@ -16,12 +16,12 @@ public class Instructor extends Person implements Teacher {
     public void teach(Learner learner, double numberOfHours) {
         learner.learn(numberOfHours);
 
-
     }
 
     @Override
     public void lecture(Iterable<? extends Learner> learners, double numberOfHours) {
 
+        //cant use size on iterable
         double numberOfHoursPerLearner;
         long counter = 0;
 
